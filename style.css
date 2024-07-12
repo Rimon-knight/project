@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/**nav css**/
+.navbar{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    
+}
+
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar ul li {
+    list-style: none;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #172A55;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 6px 20px;
+    margin-right: 10px;
+    
+}
+.navbar ul li a:hover {
+    border-bottom: 2px solid #5f45ea;
+    color:rgb(45, 82, 192);
+}
+/**banner css**/
+#banner{
+    background:  url(img/home_img.webp) no-repeat center center / cover scroll ;
+    width: 100%;
+    height:100%;
+}
+.container-text{
+    padding:  0;
+    padding-top: 00px;
+    padding-bottom: 300px;
+
+}
+.container-text h1{
+    width: 550px;
+    margin: 0 auto;
+    padding:  20px;
+    font-weight: 700;
+    font-size: 125px;
+    padding-top: 0%; 
+  
+}
+.container-text h4{
+    width: 500px;
+    padding: 0px 25px;
+    margin: 0 auto;
+   
+    color: #34314b;;
+  font-family: "Hind", Sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 30px; 
+  padding-left: 70px;
+ 
+}
+.text{
+    color: #5f45ea;
+}
+/**btn css**/
+.btn{
+    width: 195px;
+   padding: 8px 20px;
+   text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: #5f45ea;
+    border-radius: 50px;
+    color:#0b0c0c;
+    font-family: "Montserrat";
+    font-weight: 600;
+    cursor: pointer;
+   margin-left: 700px;
+  
+}
+.btn:hover{
+    color: white;
+    background:#5f45ea;
+    border-bottom: 2px solid #5f45ea;
+}
+
+
